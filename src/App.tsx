@@ -6,7 +6,7 @@ import { Footer } from './components/Footer';
 import { LeftPanel } from './components/LeftPanel';
 import { MainBody } from './components/MainBody';
 import { RightPanel } from './components/RightPanel';
-import { shuffle } from './helpers/shuggle';
+import { shuffle } from './helpers/shuffle';
 
 const App: FC = () => {
 	const [currentImages, setCurrentImages] = useState<string[]>(images);
